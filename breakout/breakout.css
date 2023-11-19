@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#grid {
+    margin: 5vh;
+    width: 560px;
+    height: 300px;
+    border: solid black 1px;
+    position: absolute;
+}
+#button {
+    width: 100px;
+    height: 50px;
+    border: solid black 1px;
+    top: 400px;
+    position:absolute;
+}
+
+.block {
+    width: 110px;
+    height: 20px;
+    background-color: blueviolet;
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+
+.user {
+    background-color: aqua;
+    width: 100px;
+    height: 20px;
+
+    position: absolute;
+    margin: 0;
+    padding: 0;
+}
+.bulletelement {
+    background-color: rgb(153, 112, 51);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+}
